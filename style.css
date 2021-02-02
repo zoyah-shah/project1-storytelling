@@ -1,0 +1,187 @@
+body{
+    background-color: #a1b8cd;
+}
+h1{
+    position: absolute;
+    font-family: 'Pacifico', cursive;
+    font-size: 80px;
+    color: #485762;
+    text-shadow: 1px 2px 3px white;
+    left: 500px;
+    z-index: 99;
+}
+
+p{
+    position: absolute;
+    width: 400px;
+    left: 620px;
+    top: 320px;
+    font-family: 'Roboto', sans-serif;
+    color: #485762;
+    text-align: center;
+    z-index: 99;
+}
+#cloud {
+    width: 250px; 
+    height: 80px;
+	background: white;
+	border-radius: 100px;
+	position: relative;
+    margin: 120px auto 20px;
+    animation-name: floating; 
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out; 
+}
+
+#cloud:after, #cloud:before {
+	content: '';
+	position: absolute;
+	background: white;
+	z-index: -1
+}
+
+#cloud:after {
+    width: 70px; 
+    height: 70px;
+    top: -50px; 
+    left: 40px;	
+	border-radius: 100px;
+}
+
+#cloud:before {
+    width: 120px; 
+    height: 120px;
+    top: -75px; 
+    right: 40px;
+	border-radius: 80px;
+}
+#cloud2 {
+    width: 250px; 
+    height: 80px;
+    left: -600px;
+	background: white;
+	border-radius: 100px;
+	position: relative;
+    margin: 120px auto 20px;
+    animation-name: floating; 
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out; 
+}
+
+#cloud2:after, #cloud2:before {
+	content: '';
+	position: absolute;
+	background: white;
+	z-index: -1
+}
+
+#cloud2:after {
+    width: 70px; 
+    height: 70px;
+    top: -50px; 
+    left: 40px;	
+	border-radius: 100px;
+}
+
+#cloud2:before {
+    width: 120px; 
+    height: 120px;
+    top: -75px; 
+    right: 40px;
+	border-radius: 80px;
+}
+#cloud3 {
+    width: 250px; 
+    height: 80px;
+	background: white;
+	border-radius: 100px;
+	position: relative;
+    margin: 120px auto 20px;
+    left: 700px;
+    animation-name: floating; 
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out; 
+}
+
+#cloud3:after, #cloud3:before {
+	content: '';
+	position: absolute;
+	background: white;
+	z-index: -1
+}
+
+#cloud3:after {
+    width: 70px; 
+    height: 70px;
+    top: -50px; 
+    left: 40px;	
+	border-radius: 100px;
+}
+
+#cloud3:before {
+    width: 120px; 
+    height: 120px;
+    top: -75px; 
+    right: 40px;
+	border-radius: 80px;
+}
+#cloud4 {
+    width: 250px; 
+    height: 80px;
+	background: white;
+	border-radius: 100px;
+	position: relative;
+    margin: 120px auto 20px;
+    left: -100px;
+    animation-name: floating; 
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out; 
+}
+@keyframes floating { 
+    0% { transform: translate(0,  0px); } 
+    50%  { transform: translate(0, 15px); } 
+    100%   { transform: translate(0, -0px); }     
+} 
+
+#cloud4:after, #cloud4:before {
+	content: '';
+	position: absolute;
+	background: white;
+	z-index: -1
+}
+
+#cloud4:after {
+    width: 70px; 
+    height: 70px;
+    top: -50px; 
+    left: 40px;	
+	border-radius: 100px;
+}
+
+#cloud4:before {
+    width: 120px; 
+    height: 120px;
+    top: -75px; 
+    right: 40px;
+	border-radius: 80px;
+}
+
+.button {
+    position: absolute;
+    top: 500px;
+    left: 700px;
+    border: none;
+    color: white;
+    background-color: #485762;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
